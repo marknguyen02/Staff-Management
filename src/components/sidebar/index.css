@@ -1,0 +1,40 @@
+.sidebar-container {
+    background-color: white;
+    height: 100vh;
+    width: 10vh;
+    position: absolute;
+    top: 10%;
+    left: 0;
+        nav {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            top: 10%;
+            align-items: center;
+            a {
+                text-decoration: none;
+                color: inherit;
+                width: 80%;
+            }
+        }
+}
+
+.icon-container {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+    gap: 5px;
+}
+
+:hover.icon-container {
+    background-color: #d3d3d3;
+}
+
+
+.icon-label {
+    font-size: 15px;
+    text-decoration: none;
+}
