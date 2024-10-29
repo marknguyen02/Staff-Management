@@ -1,7 +1,9 @@
 import './index.css'
 
 function Profile() {
-    return <h1 style={{textAlign: 'center'}}> This is your profile</h1>
+    return <div>
+        
+    </div>
 }
 
 export default Profile;
